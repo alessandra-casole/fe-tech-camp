@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 36px;
+  margin-bottom: 6px;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+.container {
+  max-width: 960px;
+  text-align: center;
+  padding: 48px 0;
+  margin: auto;
+}
+
+.card {
+  border: 2px solid #ebebeb;
+  background-color: white;
+  display: inline-block;
+  max-width: 300px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 6px 12px -6px rgba(0, 0, 0, 20%);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 16.9px;
+}
+
+.icon {
+  margin-top: 12px;
+}
+
+.ingredients {
+  margin: 0;
+  letter-spacing: 0.6px;
+  line-height: 1.6;
+}
+
+.list {
+  color: #555555;
+  font-weight: 500;
+}
+
+.time {
+  margin-top: 24px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+
+.badge {
+  padding: 4px;
+  background-color: #111111;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 20%);
+  border-color: black;
+  transform: scale(1.1);
+  transition: all 0.150s; 
+}
+
